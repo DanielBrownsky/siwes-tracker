@@ -1,0 +1,42 @@
+.summary {
+    padding: 20px 15px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+.summary h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+}
+
+.summaryCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.summaryCard {
+    flex: 1 1 120px;
+    max-width: 180px;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.summaryCard h3 {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.summaryCard p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+}
