@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import "./Dashboard.css";
 import ProgressSummary from "./ProgressSummary";
-import TimeProgress from "./TImeProgress";
+import TimeProgress from "./TimeProgress";
 
 function Dashboard() {
     const [activity, setActivity] = useState("");
