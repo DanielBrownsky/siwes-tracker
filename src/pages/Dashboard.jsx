@@ -105,7 +105,7 @@ function Dashboard() {
                     📎 Upload Screenshot
                 </label>
                 <input
-                    type="file"
+                    type="file"className=" text-sm text-slate-500 file:rounded-full file:border-0 file:bg-[#003cff] file:p-3 file:px-4 file:text-sm file:font-semibold file:text-[#ffffff]" 
                     id="screenshotUpload"
                     accept="image/*"
                     onChange={handleFileChange}
