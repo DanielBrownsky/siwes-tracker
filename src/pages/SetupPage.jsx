@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from "framer-motion";
-import "./Tracker.css";
+import "./SetupPage.css";
 
-function Tracker({ onSave }) {
+function SetupPage({ onSave }) {
     const [startDate, setStartDate] = useState("");
     const [duration, setDuration] = useState("6");
     const [university, setUniversity] = useState("");
@@ -116,4 +116,4 @@ function Tracker({ onSave }) {
     );
 }
 
-export default Tracker;
+export default SetupPage;

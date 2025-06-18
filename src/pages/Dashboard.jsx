@@ -171,9 +171,18 @@ function Dashboard() {
                     ))
                 )}
             </div>
+                
+            <div className="team-collab-card" onClick={() => navigate("/team")}>
+            <h3>👥 Team Collaboration</h3>
+            <p>Track SIWES with friends, stay accountable, and grow together.</p>
+            <button className="team-join-btn">Go to Team</button>
+            </div>
+            
+            <button className="back-home-btn" onClick={() => navigate("/")}>
+            ← Back to Home
+            </button>
 
             
-            <button className="back-home-btn" onClick={() => navigate("/")}>Back to Home</button>
         </div>
     );
 }
